@@ -9,7 +9,7 @@ In regards to stump cutting - my biggest gripe with base-game stump cutters is t
 > If Bruce Wayne designed a do-everything, "swiss-army knife" mower, this would be it. With multiple activities that you can change on the fly, this implement can mow, mulch, grind... just about anything.
 > 
 > Work Modes: 
-> - Mower (standard mower)
+> - Mower (mower with wide spreading)
 > - Brush Hog (mower + stump grinder)
 > - Swather (mower with a drop swath)
 > - Mulcher (normal mulching)
