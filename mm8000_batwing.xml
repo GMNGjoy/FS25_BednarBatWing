@@ -341,7 +341,7 @@
                 <workArea workAreaIndex="6"/>
             </workAreas>
 		</workMode>
-		<workMode name="$l10n_shopItem_skidSteerStumpCutter">
+		<workMode name="$l10n_workMode_StumpGrinder">
             <animation name="moveMowerGroundRefNodes" speed="-1" stopTime="0" repeatAfterUnfolding="true"/>
             <animation name="moveMulcherGroundRefNodes" speed="-1" stopTime="0" repeatAfterUnfolding="true"/>
 			<animation name="moveStumpCutterGroundRefNode" speed="1" stopTime="1" repeatAfterUnfolding="true"/>

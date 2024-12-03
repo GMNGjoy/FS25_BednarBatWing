@@ -8,11 +8,9 @@
         <text name="workMode_Swather" text="Swathing Mower" />
         <text name="workMode_BrushHog" text="Brush Hog" />
         <text name="workMode_Mulcher" text="Mulcher" />
-        <text name="workMode_StumpGrinder" text="StumpGrinder" />
+        <text name="workMode_StumpGrinder" text="Stump Grinder" />
         <text name="workMode_Destroyer" text="Destroyer" />
-        
-        <text name="binColor_black1" text="Blackest Black" />
-        <text name="binColor_black2" text="Somewhat Black" />
+
         <text name="color_hellaBlack" text="Hella Black, Yo!" />
         <text name="color_hellaOldBlack" text="Hella Old Black" />
     </texts>
