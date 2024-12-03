@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
     <translationContributors/>
-    <texts>        
+    <texts>
         <text name="storeItem_batwing" text="BatWing MM8000" />
 
         <text name="workMode_Mower" text="Mower" />
