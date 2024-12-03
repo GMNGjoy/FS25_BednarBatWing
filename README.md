@@ -16,10 +16,10 @@ In regards to stump cutting - my biggest gripe with base-game stump cutters is t
 > - Stump Grinding (stump grinder only)
 > - Destroyer (mulcher + stump grinder)
 > 
-> Category: Mowers
-> Price: $40,000
-> Required power: 125 hp
-> Working width: 7.0m
+> Category: Mowers<br/>
+> Price: $40,000<br/>
+> Required power: 125 hp<br/>
+> Working width: 7.0m<br/>
 > Working speed: 25 kph
 > 
 > For license & feedback, please visit
