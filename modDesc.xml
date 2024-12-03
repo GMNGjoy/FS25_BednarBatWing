@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modDesc descVersion="93" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>GMNGjoy</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Bednar BatWing</en>
+        <de>Bednar BatWing</de>
+    </title>
+    <description>
+        <en><![CDATA[If Bruce Wayne designed a do-everything mower, this would be it. With multiple work modes that you can change on the fly, this can cut, mow, mulch, grind... just about anything.
+
+Work Modes: 
+- Mower (standard mower)
+- Brush Hog (mower + stump grinder)
+- Swather (mower with a drop swath)
+- Mulcher (normal mulching)
+- Stump Grinding (stump grinder only)
+- Destroyer (mulcher + stump grinder)
+
+Category: Mowers
+Price: $40,000
+Required power: 125 hp
+Working width: 7.0m
+Working speed: 25 kph
+For license & feedback, please visit
+GitHub link: https://github.com/GMNGjoy/FS25_BednarBatwing
+]]></en>
+        <de><![CDATA[If Bruce Wayne designed a do-everything mower, this would be it. With multiple work modes that you can change on the fly, this can cut, mow, mulch, grind... just about anything.
+
+Work Modes: 
+- Mower (standard mower)
+- Brush Hog (mower + stump grinder)
+- Swather (mower with a drop swath)
+- Mulcher (normal mulching)
+- Stump Grinding (stump grinder only)
+- Destroyer (mulcher + stump grinder)
+
+Shopkategorie: Mähtechnik
+Preis: 40.000 €
+Benötigte Leistung: 125 PS
+Arbeitsbreite: 7,0m
+Arbeitsgeschwindigkeit: 25 km/h
+
+For license & feedback, please visit
+GitHub link: https://github.com/GMNGjoy/FS25_BednarBatwing
+]]></de>
+    </description>
+    <iconFilename>icon_mm8000_batwing.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <storeItems>
+        <storeItem xmlFilename="mm8000_batwing.xml"/>
+    </storeItems>
+    <l10n filenamePrefix="languages/l10n"/>
+    <vehicleTypes>
+        <type name="mowerBatwing" parent="mower" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="workMode"/>
+            <specialization name="mulcher"/>
+            <specialization name="stumpCutter"/>
+        </type>
+    </vehicleTypes>
+    <materialTemplates>
+        <template name="GMNG_HELLABLACK" title="$l10n_color_hellaBlack" colorScale="0.000 0.000 0.000" parentTemplate="calibratedMatPaint"/>
+        <template name="GMNG_HELLAOLDBLACK" title="$l10n_color_hellaOldBlack" colorScale="0.000 0.000 0.000" parentTemplate="metalPaintedOld"/>
+    </materialTemplates>
+</modDesc>
