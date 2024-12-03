@@ -6,7 +6,7 @@ From a modding persective - I've re-structured the entire model, making the "win
 In regards to stump cutting - my biggest gripe with base-game stump cutters is that most are either "point" devices (with almost no working area) or they include  cultivating / plowing / field creating functionality, which isn't always needed or desired. The **BatWing** has work-mode options for "brush hog" (mowing + stump cutting), stump grinding (without damaging the ground), or even "destroyer" mode (mulching + stump cutting). 
 
 ## Description from the ModDesc
-> If Bruce Wayne designed a do-everything mower, this would be it. With multiple work modes that you can change on the fly, this can cut, mow, mulch, grind... just about anything.
+> If Bruce Wayne designed a do-everything, "swiss-army knife" mower, this would be it. With multiple activities that you can change on the fly, this implement can mow, mulch, grind... just about anything.
 > 
 > Work Modes: 
 > - Mower (standard mower)
