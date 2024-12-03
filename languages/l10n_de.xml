@@ -6,14 +6,14 @@
     <texts>
         <text name="storeItem_batwing" text="BatWing MM8000" />
 
-        <text name="workMode_Mower" text="Mähtechnik" />
-        <text name="workMode_Swather" text="Swathing Mower" />
-        <text name="workMode_BrushHog" text="Brush Hog" />
+        <text name="workMode_Mower" text="Mähwerk" />
+        <text name="workMode_Swather" text="Schwader" />
+        <text name="workMode_BrushHog" text="Buschhacker" />
         <text name="workMode_Mulcher" text="Mulcher" />
         <text name="workMode_StumpGrinder" text="Stubbenfräse" />
-        <text name="workMode_Destroyer" text="Destroyer" />
-        
-        <text name="color_hellaBlack" text="Richtig Schwarz" />
+        <text name="workMode_Destroyer" text="Zerstörer" />
+
+        <text name="color_hellaBlack" text="So Richtig Schwarz" />
         <text name="color_hellaOldBlack" text="Vintage Schwarz" />
     </texts>
 </l10n>
