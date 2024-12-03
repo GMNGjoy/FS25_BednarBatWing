@@ -442,7 +442,7 @@
                 <lowpassCutoffFrequency indoor="1000" outdoor="20000"/>
             </work>
 	   </sounds>
-   </stumpCutter>
+    </stumpCutter>
 
     <foldable>
         <foldingConfigurations>
@@ -481,8 +481,8 @@
             <part node="armRightBackArmPhys" startTime="0.0" endTime="1.0" startRot="-10.0 0.0 0.0" endRot="-45.0 0.0 0.0" />
             <part node="armRightBackArmWheelRotPhys" startTime="0.0" endTime="1.0" startRot="10.0 0.0 0.0" endRot="45.0 0.0 0.0" />
 
-            <part componentJointIndex="1" startTime="0.0" endTime="1.0" startRotLimit="0 0 15" endRotLimit="0 0 0" />
-            <part componentJointIndex="2" startTime="0.0" endTime="1.0" startRotLimit="0 0 15" endRotLimit="0 0 0" />
+            <part componentJointIndex="1" startTime="0.0" endTime="1.0" startRotLimit="0 0 20" endRotLimit="0 0 0" />
+            <part componentJointIndex="2" startTime="0.0" endTime="1.0" startRotLimit="0 0 20" endRotLimit="0 0 0" />
 
             <!-- folding -->
             <part node="componentJointArmLeft" startTime="1.0" endTime="5.0" startRot="0.0 0.0 0.0" endRot="0.0 0.0 90.0" />
@@ -583,10 +583,10 @@
                 <inputAttacherJoint value="true" />
             </movingTool>
 
-            <movingTool node="componentJointArmLeft">
+            <movingTool node="componentJointArmLeft" wheelIndices="5">
                 <componentJoint index="1" />
             </movingTool>
-            <movingTool node="componentJointArmRight">
+            <movingTool node="componentJointArmRight" wheelIndices="6">
                 <componentJoint index="2" />
             </movingTool>
 
@@ -682,9 +682,9 @@
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="6" fieldMultiplier="2"/>
 
-    <baseColorConfigurations useDefaultColors="false" defaultColorMaterialTemplateName="metalGalvanized">
-        <baseColorConfiguration materialTemplateName="HELLA_BLACK" />
-        <baseColorConfiguration materialTemplateName="HELLA_OLDBLACK" isDefault="true" />
+    <baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="metalGalvanized">
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" isDefault="true" />
         <baseColorConfiguration materialTemplateName="BEDNAR_GRAY1" />
         <baseColorConfiguration materialTemplateName="BEDNAR_GRAY2"/>
         <baseColorConfiguration materialTemplateName="BEDNAR_BLUE1"/>
@@ -693,21 +693,21 @@
 
         <material materialSlotName="mmMainBody_mat" />
     </baseColorConfigurations>
-   
-    <designColorConfigurations title="Detail Color" useDefaultColors="false" >
-        <designColorConfiguration materialTemplateName="HELLA_BLACK" />
-        <designColorConfiguration materialTemplateName="HELLA_OLDBLACK" />
-        <designColorConfiguration materialTemplateName="BEDNAR_GRAY1" isDefault="true" />
-        <designColorConfiguration materialTemplateName="BEDNAR_GRAY2"/>
+
+    <designColorConfigurations title="Detail Color" useDefaultColors="true" >
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" />
+        <designColorConfiguration materialTemplateName="BEDNAR_GRAY1" />
+        <designColorConfiguration materialTemplateName="BEDNAR_GRAY2" isDefault="true"/>
         <designColorConfiguration materialTemplateName="BEDNAR_BLUE1"/>
         <designColorConfiguration materialTemplateName="BEDNAR_RED1"/>
         <designColorConfiguration materialTemplateName="BEDNAR_YELLOW1"/>
         <material materialSlotName="mmDetail_mat"/>
     </designColorConfigurations>
 
-    <designColor2Configurations title="Frame Color" useDefaultColors="false" defaultColorMaterialTemplateName="calibratedMetallicPaint">
-        <designColor2Configuration materialTemplateName="HELLA_BLACK" />
-        <designColor2Configuration materialTemplateName="HELLA_OLDBLACK" isDefault="true" />
+    <designColor2Configurations title="Frame Color" useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLAOLDBLACK" isDefault="true" />
         <designColor2Configuration materialTemplateName="BEDNAR_GRAY1" />
         <designColor2Configuration materialTemplateName="BEDNAR_GRAY2"/>
         <designColor2Configuration materialTemplateName="BEDNAR_BLUE1"/>
@@ -717,8 +717,8 @@
     </designColor2Configurations>
 
     <rimColorConfigurations useDefaultColors="true">
-        <rimColorConfiguration materialTemplateName="HELLA_BLACK" isDefault="true" />
-        <rimColorConfiguration materialTemplateName="HELLA_OLDBLACK" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK" isDefault="true" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" />
         <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_CHROME" price="1000"/>
         <rimColorConfiguration materialTemplateName="RIM_DEFAULT"/>
         <rimColorConfiguration materialTemplateName="BEDNAR_GRAY1" />
