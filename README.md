@@ -29,7 +29,7 @@ In regards to stump cutting - my biggest gripe with base-game stump cutters is t
 ## Installation Instructions
 1. Download this package from GitHub on the releases page, save the `FS25_BednarBatWing.zip` into your mod folder.
 2. Launch the game, and activate the mod.
-3. Purchase the mod in the store, customize the colors to your liking
+3. Purchase the mod in the store, customize the colors to your liking.
 4. When using the **BatWing**, use the work-mode selection to switch between work modes to actiate the different functions.
 
 _Enjoy!_
@@ -37,3 +37,22 @@ _Enjoy!_
 
 ## Screenshots
 
+![Work Mode: MOWER with wide spreading drop.](/_screenshots/batwing_screenshot_1_mower.png)
+<br/><br/>
+
+![Work Mode: BRUSH HOG with wide-spreading drop & stump grinding](/_screenshots/batwing_screenshot_2_brushHOg.png)
+<br/><br/>
+
+![Work Mode: SWATHING MOWER with a swath drop.](/_screenshots/batwing_screenshot_3_swathingMower.png)
+<br/><br/>
+
+![Work Mode: MULCHER still works as a standard mulcher.](/_screenshots/batwing_screenshot_0_mulcher.png)
+<br/><br/>
+
+![Work Mode: STUMP GRINDER works best in the raised position to pass over (and devour) any stumps.](/_screenshots/batwing_screenshot_4_stumpGrinder.png)
+<br/><br/>
+
+![Work Mode: DESTROYER will mulch and stump grind at the same time destroying everything in it's path!](/_screenshots/batwing_screenshot_5_destroyer.png)
+<br/><br/>
+
+![More ground following flexibility, keeping your machine on the terrain!](/_screenshots/batwing_screenshot_6_terrain.png)

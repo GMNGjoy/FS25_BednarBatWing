@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <modDesc descVersion="93" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
     <author>GMNGjoy</author>
-    <version>1.0.0.6</version>
+    <version>1.0.0.0</version>
     <title>
         <en>Bednar BatWing</en>
-        <de>Bednar BatWing</de>
+        <de>Bednar Fledermausflügel</de>
     </title>
     <description>
         <en><![CDATA[
