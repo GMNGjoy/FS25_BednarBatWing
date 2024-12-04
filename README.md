@@ -40,7 +40,7 @@ _Enjoy!_
 ![Work Mode: MOWER with wide spreading drop.](/_screenshots/batwing_screenshot_1_mower.png)
 <br/><br/>
 
-![Work Mode: BRUSH HOG with wide-spreading drop & stump grinding](/_screenshots/batwing_screenshot_2_brushHOg.png)
+![Work Mode: BRUSH HOG with wide-spreading drop & stump grinding](/_screenshots/batwing_screenshot_2_brushHog.png)
 <br/><br/>
 
 ![Work Mode: SWATHING MOWER with a swath drop.](/_screenshots/batwing_screenshot_3_swathingMower.png)
