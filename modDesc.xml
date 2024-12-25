@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <modDesc descVersion="93" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
     <author>GMNGjoy</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>
         <en>Bednar BatWing</en>
         <de>Bednar Fledermausflügel</de>
@@ -63,7 +63,13 @@ GitHub link: https://github.com/GMNGjoy/FS25_BednarBatwing
         </type>
     </vehicleTypes>
     <materialTemplates>
-        <template name="GMNG_HELLABLACK" title="$l10n_color_hellaBlack" colorScale="0.000 0.000 0.000" parentTemplate="calibratedMatPaint"/>
-        <template name="GMNG_HELLAOLDBLACK" title="$l10n_color_hellaOldBlack" colorScale="0.000 0.000 0.000" parentTemplate="metalPaintedOld"/>
+        <template name="GMNG_HELLABLACK" title="$l10n_color_hellaBlack" colorScale="0 0 0" parentTemplate="calibratedPaint"/>
+        <template name="GMNG_HELLABLACK_OLD" title="$l10n_color_hellaBlack_old" colorScale="0 0 0" parentTemplate="metalPaintedOld"/>
+        <template name="GMNG_HELLABLACK_MATTE" title="$l10n_color_hellaBlack_matte" colorScale="0 0 0" parentTemplate="calibratedMatPaint"/>
+        <template name="GMNG_HELLABLACK_METALLIC" title="$l10n_color_hellaBlack_metallic" colorScale="0 0 0" parentTemplate="calibratedMetallicPaint"/>
+        <template name="GMNG_HELLABLACK_ROUGH" title="$l10n_color_hellaBlack_rough" colorScale="0 0 0" parentTemplate="metalPaintedRoughBlack"/>
+        <template name="GMNG_HELLABLACK_SCRATCHED" title="$l10n_color_hellaBlack_scratched" colorScale="0 0 0" parentTemplate="palladiumScratched"/>
+        <template name="GMNG_HELLABLACK_GALVANIZED" title="$l10n_color_hellaBlack_galvanized" colorScale="0 0 0" parentTemplate="metalGalvanized"/>
+        <template name="GMNG_HELLABLACK_PLASTIC" title="$l10n_color_hellaBlack_plastic" colorScale="0 0 0" parentTemplate="plasticPaintedBlack"/>
     </materialTemplates>
 </modDesc>

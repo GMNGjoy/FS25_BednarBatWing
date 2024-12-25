@@ -99,7 +99,7 @@
             </wheelConfiguration>
         </wheelConfigurations>
 
-        <rimMaterial materialTemplateName="GMNG_HELLAOLDBLACK"/>
+        <rimMaterial materialTemplateName="GMNG_HELLABLACK_OLD"/>
 
         <hubs>
             <hub linkNode="armMiddleBackArmWheel01" filename="$data/shared/wheels/hubs/hub_n5_1.xml" isLeft="true" scale="0.15 0.15 0.15"/>
@@ -560,20 +560,20 @@
         </animation>
 
         <animation name="moveMowerGroundRefNodes">
-			<part node="groundRefMowerMiddle"  startTime="0.0" endTime="0.1" startTrans="0 3.0 0" 	       endTrans="0 0 0"  />
-			<part node="groundRefMowerLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 3.0 -0.75"   endTrans="1.25 0 -0.75"  />
-			<part node="groundRefMowerRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 3.0 -0.75"  endTrans="-1.25 0 -0.75"  />
+			<part node="groundRefMowerMiddle"  startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" 	       endTrans="0 0 0"  />
+			<part node="groundRefMowerLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75"   endTrans="1.25 0 -0.75"  />
+			<part node="groundRefMowerRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75"  endTrans="-1.25 0 -0.75"  />
 		</animation>
 
 		<animation name="moveMulcherGroundRefNodes">
-			<part node="groundRefMulcherMiddle"  startTime="0.0" endTime="0.1" startTrans="0 3.0 0" 		endTrans="0 0 0"/>
-			<part node="groundRefMulcherLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 3.0 -0.75"  endTrans="1.25 0 -0.75" />
-			<part node="groundRefMulcherRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 3.0 -0.75" endTrans="-1.25 0 -0.75" />
+			<part node="groundRefMulcherMiddle"  startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" 		endTrans="0 0 0"/>
+			<part node="groundRefMulcherLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75"  endTrans="1.25 0 -0.75" />
+			<part node="groundRefMulcherRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75" endTrans="-1.25 0 -0.75" />
 		</animation>
 		<animation name="moveStumpCutterGroundRefNode">
-			<part node="groundRefStumpCutter"      startTime="0.0" endTime="0.1" startTrans="0 3.0 0" endTrans="0 0 0"/>
-            <part node="groundRefStumpCutterLeft"  startTime="0.0" endTime="0.1" startTrans="1.25 3.0 -0.75" endTrans="1.25 0 -0.75"/>
-            <part node="groundRefStumpCutterRight" startTime="0.0" endTime="0.1" startTrans="-1.25 3.0 -0.75" endTrans="-1.25 0 -0.75"/>
+			<part node="groundRefStumpCutter"      startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" endTrans="0 0 0"/>
+            <part node="groundRefStumpCutterLeft"  startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75" endTrans="1.25 0 -0.75"/>
+            <part node="groundRefStumpCutterRight" startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75" endTrans="-1.25 0 -0.75"/>
 		</animation>
     </animations>
 
@@ -684,7 +684,13 @@
 
     <baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="metalGalvanized">
         <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK" />
-        <baseColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" isDefault="true" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_OLD" isDefault="true" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_MATTE" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_METALLIC" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_ROUGH" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_SCRATCHED" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_GALVANIZED" />
+        <baseColorConfiguration materialTemplateName="GMNG_HELLABLACK_PLASTIC" />
         <baseColorConfiguration materialTemplateName="BEDNAR_GRAY1" />
         <baseColorConfiguration materialTemplateName="BEDNAR_GRAY2"/>
         <baseColorConfiguration materialTemplateName="BEDNAR_BLUE1"/>
@@ -695,7 +701,13 @@
 
     <designColorConfigurations title="Detail Color" useDefaultColors="true" >
         <designColorConfiguration materialTemplateName="GMNG_HELLABLACK" />
-        <designColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_OLD" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_MATTE" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_METALLIC" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_ROUGH" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_SCRATCHED" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_GALVANIZED" />
+        <designColorConfiguration materialTemplateName="GMNG_HELLABLACK_PLASTIC" />
         <designColorConfiguration materialTemplateName="BEDNAR_GRAY1" />
         <designColorConfiguration materialTemplateName="BEDNAR_GRAY2" isDefault="true"/>
         <designColorConfiguration materialTemplateName="BEDNAR_BLUE1"/>
@@ -706,7 +718,13 @@
 
     <designColor2Configurations title="Frame Color" useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
         <designColor2Configuration materialTemplateName="GMNG_HELLABLACK" />
-        <designColor2Configuration materialTemplateName="GMNG_HELLAOLDBLACK" isDefault="true" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_OLD" isDefault="true" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_MATTE" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_METALLIC" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_ROUGH" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_SCRATCHED" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_GALVANIZED" />
+        <designColor2Configuration materialTemplateName="GMNG_HELLABLACK_PLASTIC" />
         <designColor2Configuration materialTemplateName="BEDNAR_GRAY1" />
         <designColor2Configuration materialTemplateName="BEDNAR_GRAY2"/>
         <designColor2Configuration materialTemplateName="BEDNAR_BLUE1"/>
@@ -717,7 +735,13 @@
 
     <rimColorConfigurations useDefaultColors="true">
         <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK" isDefault="true" />
-        <rimColorConfiguration materialTemplateName="GMNG_HELLAOLDBLACK" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_OLD" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_MATTE" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_METALLIC" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_ROUGH" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_SCRATCHED" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_GALVANIZED" />
+        <rimColorConfiguration materialTemplateName="GMNG_HELLABLACK_PLASTIC" />
         <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_CHROME" price="1000"/>
         <rimColorConfiguration materialTemplateName="RIM_DEFAULT"/>
         <rimColorConfiguration materialTemplateName="BEDNAR_GRAY1" />

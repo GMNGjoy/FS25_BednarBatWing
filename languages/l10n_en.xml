@@ -12,6 +12,12 @@
         <text name="workMode_Destroyer" text="Destroyer" />
 
         <text name="color_hellaBlack" text="Hella Black, Yo!" />
-        <text name="color_hellaOldBlack" text="Hella Old Black" />
+        <text name="color_hellaBlack_old" text="Hella Black &amp; Old" />
+        <text name="color_hellaBlack_matte" text="Hella Black &amp; Matte" />
+        <text name="color_hellaBlack_metallic" text="Hella Black &amp; Metallic" />
+        <text name="color_hellaBlack_rough" text="Hella Black &amp; Rough" />
+        <text name="color_hellaBlack_scratched" text="Hella Black &amp; Scratched" />
+        <text name="color_hellaBlack_galvanized" text="Hella Black &amp; Galvanized" />
+        <text name="color_hellaBlack_plastic" text="Hella Black &amp; Plastic" />
     </texts>
 </l10n>
