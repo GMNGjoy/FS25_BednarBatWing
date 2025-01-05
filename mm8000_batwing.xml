@@ -367,12 +367,6 @@
     </workModes>
 
     <mower fruitTypeConverter="MOWER">
-        <!-- <animationNodes>
-            <animationNode node="bladeMiddle" rotSpeed="-3000" rotAxis="2" turnOnFadeTime="3" turnOffFadeTime="1"/>
-            <animationNode node="cutterLeftWing" rotSpeed="3000"  rotAxis="2" turnOnFadeTime="3" turnOffFadeTime="1"/>
-            <animationNode node="cutterRightWing" rotSpeed="-3000" rotAxis="2" turnOnFadeTime="3" turnOffFadeTime="1"/>
-	        <turnedOnAnimation name="turnOnAnimation" speedScale="15" turnOnFadeTime="1" turnOffFadeTime="1"/>
-        </animationNodes> -->
         <dropEffects>
             <dropEffect workAreaIndex="1" dropAreaIndex="8">
                 <effectNode effectClass="TypedMotionPathEffect" effectType="MOWER" linkNode="armMiddleMowerEffectLinkNode">
@@ -430,12 +424,10 @@
     </mulcher>
 
     <stumpCutter>
-	   <cutNode node="stumpCutNodeCenter" cutSizeY="1.5" cutSizeZ="2" maxCutTime="0.01" maxResetCutTime="0.001" workAreaIndex="7"/>
+	   <cutNode node="stumpCutNodeCenter" cutSizeY="2" cutSizeZ="7.0" maxCutTime="0.01" maxResetCutTime="0.001" workAreaIndex="7"/>
 	   <cutNode node="stumpCutNodeLeft" cutSizeY="2" cutSizeZ="4.3" maxCutTime="0.01" maxResetCutTime="0.001"  workAreaIndex="8"/>
 	   <cutNode node="stumpCutNodeRight" cutSizeY="2" cutSizeZ="4.3" maxCutTime="0.01" maxResetCutTime="0.001" workAreaIndex="9"/>
-	   <cutNode node="stumpCutNodeFront" cutSizeY="7" cutSizeZ="7" maxCutTime="0.01" maxResetCutTime="0.001" />
-       <cutNode node="stumpCutNodeBack" cutSizeY="7" cutSizeZ="7" maxCutTime="0.01" maxResetCutTime="0.001" />
-       
+	  
        <sounds>
 		    <work file="$data/vehicles/tmcCancela/tfr250/sounds/stumpCutter_work.wav" fadeIn="0.1" fadeOut="0.1">
                 <volume indoor="1" outdoor="3"/>
@@ -560,21 +552,25 @@
         </animation>
 
         <animation name="moveMowerGroundRefNodes">
-			<part node="groundRefMowerMiddle"  startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" 	       endTrans="0 0 0"  />
-			<part node="groundRefMowerLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75"   endTrans="1.25 0 -0.75"  />
-			<part node="groundRefMowerRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75"  endTrans="-1.25 0 -0.75"  />
+			<part node="groundRefMowerMiddle"  startTime="0.0" endTime="0.1" startTrans="0 5.0 0" 	       endTrans="0 0 0"  />
+			<part node="groundRefMowerLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 5.0 -0.75"   endTrans="1.25 0 -0.75"  />
+			<part node="groundRefMowerRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 5.0 -0.75"  endTrans="-1.25 0 -0.75"  />
 		</animation>
 
 		<animation name="moveMulcherGroundRefNodes">
-			<part node="groundRefMulcherMiddle"  startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" 		endTrans="0 0 0"/>
-			<part node="groundRefMulcherLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75"  endTrans="1.25 0 -0.75" />
-			<part node="groundRefMulcherRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75" endTrans="-1.25 0 -0.75" />
+			<part node="groundRefMulcherMiddle"  startTime="0.0" endTime="0.1" startTrans="0 5.0 0" 		endTrans="0 0 0"/>
+			<part node="groundRefMulcherLeft"    startTime="0.0" endTime="0.1" startTrans="1.25 5.0 -0.75"  endTrans="1.25 0 -0.75" />
+			<part node="groundRefMulcherRight"   startTime="0.0" endTime="0.1" startTrans="-1.25 5.0 -0.75" endTrans="-1.25 0 -0.75" />
 		</animation>
 		<animation name="moveStumpCutterGroundRefNode">
-			<part node="groundRefStumpCutter"      startTime="0.0" endTime="0.1" startTrans="0 -3.0 0" endTrans="0 0 0"/>
-            <part node="groundRefStumpCutterLeft"  startTime="0.0" endTime="0.1" startTrans="1.25 -3.0 -0.75" endTrans="1.25 0 -0.75"/>
-            <part node="groundRefStumpCutterRight" startTime="0.0" endTime="0.1" startTrans="-1.25 -3.0 -0.75" endTrans="-1.25 0 -0.75"/>
-		</animation>
+			<part node="groundRefStumpCutter"      startTime="0.0" endTime="0.1" startTrans="0 5.0 0" endTrans="0 0 0"/>
+            <part node="groundRefStumpCutterLeft"  startTime="0.0" endTime="0.1" startTrans="1.25 5.0 -0.75" endTrans="1.25 0 -0.75"/>
+            <part node="groundRefStumpCutterRight" startTime="0.0" endTime="0.1" startTrans="-1.25 5.0 -0.75" endTrans="-1.25 0 -0.75"/>
+    
+            <part node="stumpCutNodeCenter" startTime="0.0" endTime="0.1" startTrans="-3.5 -5.2 -0.5" endTrans="-3.5 0.2 -0.5"/>
+            <part node="stumpCutNodeLeft" startTime="0.0" endTime="0.1" startTrans="-0.922 -5.2 1.727" endTrans="-0.922 0.2 1.727"/>
+            <part node="stumpCutNodeRight" startTime="0.0" endTime="0.1" startTrans="-2.75 -5.2 -0.546" endTrans="-2.75 0.2 -0.546"/>
+        </animation>
     </animations>
 
     <cylindered>
@@ -654,9 +650,9 @@
         <turnedOnAnimation name="cutterArmsTurnedOnAnimation"/>
 
         <sounds>
-        <start template="mulcherStart" volumeScale="1.1"/>
-        <work template="mulcherLoop"   volumeScale="1.1"/>
-        <stop template="mulcherStop"   volumeScale="1.1"/>
+            <start template="mulcherStart" volumeScale="1.1"/>
+            <work template="mulcherLoop"   volumeScale="1.1"/>
+            <stop template="mulcherStop"   volumeScale="1.1"/>
         </sounds>
     </turnOnVehicle>
 
@@ -859,9 +855,6 @@
 		<i3dMapping id="areaStumpCutterHeight" node="0>0|4|16" />
         <i3dMapping id="groundRefStumpCutter" node="0>0|4|17" />
         <i3dMapping id="stumpCutNodeCenter" node="0>0|4|18" />
-        <i3dMapping id="stumpCutNodeFront" node="0>0|4|19" />
-        <i3dMapping id="stumpCutNodeBack" node="0>0|4|20" />
-	
 
         <i3dMapping id="mm700_armLeft_component2" node="1>" />
         <i3dMapping id="armLeftBackArmPhys" node="1>0|0" />
@@ -895,7 +888,6 @@
         <i3dMapping id="armLeftHydraulicRef" node="1>2|0|5" />
         <i3dMapping id="armLeftMowerEffectLinkNode" node="1>2|0|10|0" />
         <i3dMapping id="leftMowerSmokeEmitter" node="1>2|0|10|1" />
-
         
         <i3dMapping id="areaMowerLeftStart" node="1>2|0|9|0" />
 		<i3dMapping id="areaMowerLeftWidth" node="1>2|0|9|1" />
@@ -963,6 +955,5 @@
 
         <i3dMapping id="armRightMowerEffectLinkNode" node="2>2|0|9|0" />
         <i3dMapping id="rightMowerSmokeEmitter" node="2>2|0|9|1" />  
-
     </i3dMappings>
 </vehicle>

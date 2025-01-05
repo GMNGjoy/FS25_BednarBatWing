@@ -6,7 +6,7 @@
   </Asset>
 
   <Files>
-    <File fileId="53" filename="mm8000Decals_diffuse.png"/>
+    <File fileId="52" filename="mm8000Decals_diffuse.png"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="31" filename="$data/shared/assets/lights/lizard/frontLight02.i3d"/>
     <File fileId="28" filename="$data/shared/assets/lights/lizard/rearLight05.i3d"/>
@@ -176,7 +176,7 @@
       <CustomParameter name="clearCoatSmoothness" value="0.2"/>
     </Material>
     <Material name="mm7000Decals_metalPainted_mat" materialId="19" customShaderId="5" customShaderVariation="vmaskUV2_normalUV3">
-      <Texture fileId="53"/>
+      <Texture fileId="52"/>
       <Normalmap fileId="33"/>
       <Glossmap fileId="4"/>
       <Custommap name="detailSpecular" fileId="6"/>
@@ -215,8 +215,6 @@
     </Material>
     <Material name="UnnamedMaterial" materialId="25" diffuseColor="0 0 1 1">
     </Material>
-    <Material name="UnnamedMaterial" materialId="26" diffuseColor="1 1 1 1">
-    </Material>
     <Material name="window_glassClear01_mat" materialId="27" alphaBlending="true" customShaderId="5">
       <Texture fileId="44"/>
       <Normalmap fileId="45"/>
@@ -234,7 +232,7 @@
 
   <Scene>
     <Shape name="mm700_main_component1" shapeId="1" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="49" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6">
-      <Shape name="mm7000_vis" shapeId="2" clipDistance="300" nodeId="50" castsShadows="true" receiveShadows="true" skinBindNodeIds="50 108 122 143 144 146 148 259 262 265 266 269 270 271 272 273 275 276 277 278 279 281 288 156 157 326 329 332 333 336 337 338 339 340 342 343 344 345 346 348 159 160 163 184 193 194 196 198 199" materialIds="13,16,15,10,7,14,12,12,9,17,8">
+      <Shape name="mm7000_vis" shapeId="2" clipDistance="300" nodeId="50" castsShadows="true" receiveShadows="true" skinBindNodeIds="50 108 122 143 144 146 148 257 260 263 264 267 268 269 270 271 273 274 275 276 277 279 286 156 157 324 327 330 331 334 335 336 337 338 340 341 342 343 344 346 159 160 163 184 193 194 196 198 199" materialIds="13,16,15,10,7,14,12,12,9,17,8">
         <TransformGroup name="attachable" nodeId="51">
           <TransformGroup name="pto" nodeId="52">
             <TransformGroup name="ptoInputNode" translation="0.000223 0.537689 1.66017" rotation="0 180 0" nodeId="53"/>
@@ -403,215 +401,207 @@
           <TransformGroup name="stumpGroundRefCenter" nodeId="224">
             <Shape name="sphere" translation="0 0 -0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="225" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="25"/>
           </TransformGroup>
-          <TransformGroup name="stumpCutNodeCenter" translation="-0.557836 -0.2 1.87134" rotation="180 0 90.0001" nodeId="226">
-            <Shape name="cube" translation="0.8 0 -5.27361e-08" scale="1.6 0.2 0.2" shapeId="11" visibility="false" nodeId="227" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="26"/>
-          </TransformGroup>
-          <TransformGroup name="stumpCutNodeFront" translation="3.6 0.0234003 -0.35" rotation="90 -90 0" nodeId="228"/>
-          <TransformGroup name="stumpCutNodeBack" translation="-3.6 0.0233996 -1.56458" rotation="-90 90 180" nodeId="229"/>
+          <TransformGroup name="stumpCutNodeCenter" translation="-3.5 0.2 -0.5" rotation="-90 -27.3516 -90.0003" nodeId="226"/>
         </TransformGroup>
-        <TransformGroup name="effects" nodeId="230">
-          <TransformGroup name="armMiddleMulcherEffectLinkNode" translation="0.11518 0.073418 0.061651" nodeId="231"/>
-          <Shape name="smokeEmitter" translation="0 0 -0.727852" shapeId="12" clipDistance="300" nodeId="232" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
-          <TransformGroup name="middleMowerEffectLinkNode" translation="0 -0.11 -1.3993" scale="0.6 1 1" nodeId="233"/>
-          <Shape name="mowerSmokeEmitter" translation="0.0526358 0.333477 -1.10405" rotation="-48.6623 -0 0" scale="0.6 1 1" shapeId="13" clipDistance="300" nodeId="234" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
-          <TransformGroup name="middleMowerRowEffectLinkNode" translation="-0.246155 -0.11 -1.07468" nodeId="235"/>
+        <TransformGroup name="effects" nodeId="228">
+          <TransformGroup name="armMiddleMulcherEffectLinkNode" translation="0.11518 0.073418 0.061651" nodeId="229"/>
+          <Shape name="smokeEmitter" translation="0 0 -0.727852" shapeId="11" clipDistance="300" nodeId="230" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
+          <TransformGroup name="middleMowerEffectLinkNode" translation="0 -0.11 -1.3993" scale="0.6 1 1" nodeId="231"/>
+          <Shape name="mowerSmokeEmitter" translation="0.0526358 0.333477 -1.10405" rotation="-48.6623 -0 0" scale="0.6 1 1" shapeId="12" clipDistance="300" nodeId="232" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+          <TransformGroup name="middleMowerRowEffectLinkNode" translation="-0.246155 -0.11 -1.07468" nodeId="233"/>
         </TransformGroup>
-        <TransformGroup name="ai" nodeId="236">
-          <TransformGroup name="aiCollisionNode" translation="0 0 -0.509211" nodeId="237"/>
-          <TransformGroup name="aiMarkerLeft" translation="3.5 0 -0.509211" nodeId="238"/>
-          <TransformGroup name="aiMarkerRight" translation="-3.5 0 -0.509211" nodeId="239"/>
-          <TransformGroup name="aiMarkerBack" translation="0 0 -1.96364" nodeId="240"/>
+        <TransformGroup name="ai" nodeId="234">
+          <TransformGroup name="aiCollisionNode" translation="0 0 -0.509211" nodeId="235"/>
+          <TransformGroup name="aiMarkerLeft" translation="3.5 0 -0.509211" nodeId="236"/>
+          <TransformGroup name="aiMarkerRight" translation="-3.5 0 -0.509211" nodeId="237"/>
+          <TransformGroup name="aiMarkerBack" translation="0 0 -1.96364" nodeId="238"/>
         </TransformGroup>
-        <TransformGroup name="visuals" nodeId="241">
-          <TransformGroup name="licensePlateBack" translation="0.5 1.23643 -1.8968" rotation="0 180 0" nodeId="242"/>
-          <Shape name="mm7000_decals" translation="0.000725 0.731222 -0.203161" shapeId="14" clipDistance="30" nodeId="243" castsShadows="false" receiveShadows="true" decalLayer="1" skinBindNodeIds="243 154 264 290 331 356 192 201" materialIds="19,20"/>
+        <TransformGroup name="visuals" nodeId="239">
+          <TransformGroup name="licensePlateBack" translation="0.5 1.23643 -1.8968" rotation="0 180 0" nodeId="240"/>
+          <Shape name="mm7000_decals" translation="0.000725 0.731222 -0.203161" shapeId="13" clipDistance="30" nodeId="241" castsShadows="false" receiveShadows="true" decalLayer="1" skinBindNodeIds="241 154 262 288 329 354 192 201" materialIds="19,20"/>
         </TransformGroup>
-        <TransformGroup name="componentJointArmLeft" translation="0.8943 0.3266 -0.045" nodeId="244"/>
-        <TransformGroup name="componentJointArmRight" translation="-0.8938 0.3266 -0.045" nodeId="245"/>
-        <TransformGroup name="rootjoint" nodeId="246"/>
+        <TransformGroup name="componentJointArmLeft" translation="0.8943 0.3266 -0.045" nodeId="242"/>
+        <TransformGroup name="componentJointArmRight" translation="-0.8938 0.3266 -0.045" nodeId="243"/>
+        <TransformGroup name="rootjoint" nodeId="244"/>
       </Shape>
-      <TransformGroup name="skinnedMeshes" nodeId="247">
-        <Shape name="hoses" shapeId="15" clipDistance="300" nodeId="248" castsShadows="true" receiveShadows="true" skinBindNodeIds="246 292 358 161 158 195 155 334 267" materialIds="21,22"/>
-        <Shape name="hosesTrashFan" shapeId="16" clipDistance="300" nodeId="249" castsShadows="true" receiveShadows="true" skinBindNodeIds="246 155 349 282" materialIds="21,22"/>
+      <TransformGroup name="skinnedMeshes" nodeId="245">
+        <Shape name="hoses" shapeId="14" clipDistance="300" nodeId="246" castsShadows="true" receiveShadows="true" skinBindNodeIds="244 290 356 161 158 195 155 332 265" materialIds="21,22"/>
+        <Shape name="hosesTrashFan" shapeId="15" clipDistance="300" nodeId="247" castsShadows="true" receiveShadows="true" skinBindNodeIds="244 155 347 280" materialIds="21,22"/>
       </TransformGroup>
     </Shape>
-    <Shape name="mm700_armLeft_component2" translation="2.24014 0.224016 -0.34684" shapeId="17" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="250" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6">
-      <TransformGroup name="armLeftBackArmPhysRot" translation="0.922861 0.077484 -1.61716" nodeId="251">
-        <TransformGroup name="armLeftBackArmPhys" nodeId="252">
-          <TransformGroup name="armLeftBackArmWheelRotPhys" translation="0 0.0656 -0.4558" nodeId="253">
-            <TransformGroup name="armLeftBackArmWheel" translation="0.215 -1.3e-05 -2.3e-05" nodeId="254">
-              <TransformGroup name="armLeftBackArmHubLeft" translation="-0.003749 0 -1e-06" nodeId="255"/>
-              <TransformGroup name="armLeftBackArmHubRight" translation="-0.424749 0 -1e-06" nodeId="256"/>
+    <Shape name="mm700_armLeft_component2" translation="2.24014 0.224016 -0.34684" shapeId="16" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="248" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6">
+      <TransformGroup name="armLeftBackArmPhysRot" translation="0.922861 0.077484 -1.61716" nodeId="249">
+        <TransformGroup name="armLeftBackArmPhys" nodeId="250">
+          <TransformGroup name="armLeftBackArmWheelRotPhys" translation="0 0.0656 -0.4558" nodeId="251">
+            <TransformGroup name="armLeftBackArmWheel" translation="0.215 -1.3e-05 -2.3e-05" nodeId="252">
+              <TransformGroup name="armLeftBackArmHubLeft" translation="-0.003749 0 -1e-06" nodeId="253"/>
+              <TransformGroup name="armLeftBackArmHubRight" translation="-0.424749 0 -1e-06" nodeId="254"/>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="armLeftRef" translation="8.65416 0.102584 0.30184" rotation="0 90 0" nodeId="257"/>
-      <TransformGroup name="armLeftRefFrame" translation="-1.34584 0.102584 0.30184" rotation="-45 90 0" nodeId="258">
-        <TransformGroup name="armLeft" rotation="45 0 0" clipDistance="300" nodeId="259">
-          <TransformGroup name="movingParts" nodeId="260">
-            <TransformGroup name="armLeftBackArmRot" translation="1.919 -0.0251 2.2687" rotation="0 -90 0" nodeId="261">
-              <TransformGroup name="armLeftBackArm" clipDistance="300" nodeId="262">
-                <TransformGroup name="armLeftBackArmHydraulicRef" translation="0 0.2555 0.0523" rotation="161.177 0 -180" nodeId="263"/>
-                <TransformGroup name="mm7000_decals" translation="0.000574 0.14399 -0.157792" clipDistance="30" nodeId="264"/>
+      <TransformGroup name="armLeftRef" translation="8.65416 0.102584 0.30184" rotation="0 90 0" nodeId="255"/>
+      <TransformGroup name="armLeftRefFrame" translation="-1.34584 0.102584 0.30184" rotation="-45 90 0" nodeId="256">
+        <TransformGroup name="armLeft" rotation="45 0 0" clipDistance="300" nodeId="257">
+          <TransformGroup name="movingParts" nodeId="258">
+            <TransformGroup name="armLeftBackArmRot" translation="1.919 -0.0251 2.2687" rotation="0 -90 0" nodeId="259">
+              <TransformGroup name="armLeftBackArm" clipDistance="300" nodeId="260">
+                <TransformGroup name="armLeftBackArmHydraulicRef" translation="0 0.2555 0.0523" rotation="161.177 0 -180" nodeId="261"/>
+                <TransformGroup name="mm7000_decals" translation="0.000574 0.14399 -0.157792" clipDistance="30" nodeId="262"/>
               </TransformGroup>
             </TransformGroup>
-            <TransformGroup name="armLeftBackArmHydraulic" translation="1.4689 0.0948 2.2687" rotation="-18.823 90 0" clipDistance="300" nodeId="265">
-              <TransformGroup name="armLeftBackArmHydraulicPunch" translation="0 0 0.420276" clipDistance="300" nodeId="266"/>
-              <TransformGroup name="armLeftBackArmHydraulicJoint" nodeId="267"/>
+            <TransformGroup name="armLeftBackArmHydraulic" translation="1.4689 0.0948 2.2687" rotation="-18.823 90 0" clipDistance="300" nodeId="263">
+              <TransformGroup name="armLeftBackArmHydraulicPunch" translation="0 0 0.420276" clipDistance="300" nodeId="264"/>
+              <TransformGroup name="armLeftBackArmHydraulicJoint" nodeId="265"/>
             </TransformGroup>
-            <TransformGroup name="armLeftCutterDrum01Rot" translation="1.04891 -0.057248 1.87268" rotation="0 -90 0" nodeId="268">
-              <TransformGroup name="armLeftCutterDrum01" translation="-0.002107 2e-06 -0.000309" clipDistance="300" nodeId="269">
-                <TransformGroup name="armLeftCutterDrum01Arm01" translation="1e-06 -0.110823 0.187255" clipDistance="300" nodeId="270"/>
-                <TransformGroup name="armLeftCutterDrum01Arm02" translation="-0.187255 -0.110823 0" clipDistance="300" nodeId="271"/>
-                <TransformGroup name="armLeftCutterDrum01Arm03" translation="0 -0.110823 -0.187256" clipDistance="300" nodeId="272"/>
-                <TransformGroup name="armLeftCutterDrum01Arm04" translation="0.187256 -0.110823 -1e-06" clipDistance="300" nodeId="273"/>
+            <TransformGroup name="armLeftCutterDrum01Rot" translation="1.04891 -0.057248 1.87268" rotation="0 -90 0" nodeId="266">
+              <TransformGroup name="armLeftCutterDrum01" translation="-0.002107 2e-06 -0.000309" clipDistance="300" nodeId="267">
+                <TransformGroup name="armLeftCutterDrum01Arm01" translation="1e-06 -0.110823 0.187255" clipDistance="300" nodeId="268"/>
+                <TransformGroup name="armLeftCutterDrum01Arm02" translation="-0.187255 -0.110823 0" clipDistance="300" nodeId="269"/>
+                <TransformGroup name="armLeftCutterDrum01Arm03" translation="0 -0.110823 -0.187256" clipDistance="300" nodeId="270"/>
+                <TransformGroup name="armLeftCutterDrum01Arm04" translation="0.187256 -0.110823 -1e-06" clipDistance="300" nodeId="271"/>
               </TransformGroup>
             </TransformGroup>
-            <TransformGroup name="armLeftCutterDrum02Rot" translation="0.269277 -0.057247 0.521584" rotation="0 -90 0" nodeId="274">
-              <TransformGroup name="armLeftCutterDrum02" translation="-0.001634 0 0.000452" clipDistance="300" nodeId="275">
-                <TransformGroup name="armLeftCutterDrum02Arm01" translation="1e-06 -0.110822 0.187255" clipDistance="300" nodeId="276"/>
-                <TransformGroup name="armLeftCutterDrum02Arm02" translation="-0.187255 -0.110822 0" clipDistance="300" nodeId="277"/>
-                <TransformGroup name="armLeftCutterDrum02Arm03" translation="0 -0.110822 -0.187256" clipDistance="300" nodeId="278"/>
-                <TransformGroup name="armLeftCutterDrum02Arm04" translation="0.187256 -0.110822 -1e-06" clipDistance="300" nodeId="279"/>
+            <TransformGroup name="armLeftCutterDrum02Rot" translation="0.269277 -0.057247 0.521584" rotation="0 -90 0" nodeId="272">
+              <TransformGroup name="armLeftCutterDrum02" translation="-0.001634 0 0.000452" clipDistance="300" nodeId="273">
+                <TransformGroup name="armLeftCutterDrum02Arm01" translation="1e-06 -0.110822 0.187255" clipDistance="300" nodeId="274"/>
+                <TransformGroup name="armLeftCutterDrum02Arm02" translation="-0.187255 -0.110822 0" clipDistance="300" nodeId="275"/>
+                <TransformGroup name="armLeftCutterDrum02Arm03" translation="0 -0.110822 -0.187256" clipDistance="300" nodeId="276"/>
+                <TransformGroup name="armLeftCutterDrum02Arm04" translation="0.187256 -0.110822 -1e-06" clipDistance="300" nodeId="277"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="configurations" nodeId="280">
-            <TransformGroup name="trashFanFrameLeft" translation="0.433337 0.084984 0.34713" rotation="0 -90 0" clipDistance="300" nodeId="281">
-              <TransformGroup name="trashFanFrameLeftJoint" nodeId="282"/>
+          <TransformGroup name="configurations" nodeId="278">
+            <TransformGroup name="trashFanFrameLeft" translation="0.433337 0.084984 0.34713" rotation="0 -90 0" clipDistance="300" nodeId="279">
+              <TransformGroup name="trashFanFrameLeftJoint" nodeId="280"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="ptos" nodeId="283">
-            <TransformGroup name="armLeftLocalPto01End" translation="-0.005924 0.179985 0.247203" rotation="0 225 0" nodeId="284"/>
-            <TransformGroup name="armLeftLocalPto02Start" translation="0.427557 0.179986 0.680632" rotation="179.857 -45.0055 -179.798" nodeId="285"/>
-            <TransformGroup name="armLeftLocalPto02End" translation="0.954732 0.179989 1.52166" rotation="-179.687 -14.9867 178.784" nodeId="286"/>
+          <TransformGroup name="ptos" nodeId="281">
+            <TransformGroup name="armLeftLocalPto01End" translation="-0.005924 0.179985 0.247203" rotation="0 225 0" nodeId="282"/>
+            <TransformGroup name="armLeftLocalPto02Start" translation="0.427557 0.179986 0.680632" rotation="179.857 -45.0055 -179.798" nodeId="283"/>
+            <TransformGroup name="armLeftLocalPto02End" translation="0.954732 0.179989 1.52166" rotation="-179.687 -14.9867 178.784" nodeId="284"/>
           </TransformGroup>
-          <TransformGroup name="armLeftMulcherEffectLinkNode" translation="1.07836 -0.253182 1.08162" rotation="0 -90 0" nodeId="287"/>
-          <TransformGroup name="armSupportAttached" translation="1.51203 0.169531 1.13756" rotation="0 -90 0" clipDistance="300" nodeId="288"/>
-          <TransformGroup name="armLeftHydraulicRef" translation="0.975 0.139 1.1919" rotation="4.64594 0 0" nodeId="289"/>
-          <TransformGroup name="mm7000_decals" translation="0.536445 -0.012313 1.35267" rotation="0 -90 0" clipDistance="120" nodeId="290"/>
-          <Shape name="mm7000_decals1" translation="-0.170536 0.025203 1.17219" rotation="0 -90 0" shapeId="18" clipDistance="120" nodeId="291" castsShadows="false" receiveShadows="true" decalLayer="2" materialIds="19"/>
-          <TransformGroup name="armLeftjoint" nodeId="292"/>
-          <TransformGroup name="workAreaLeft" translation="0 -0.35 0" rotation="-0 -90 0" nodeId="293">
-            <TransformGroup name="mowerWorkAreaLeftStart" translation="0 0 1.125" nodeId="294"/>
-            <TransformGroup name="mowerWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="295"/>
-            <TransformGroup name="mowerWorkAreaLeftHeight" nodeId="296"/>
-            <TransformGroup name="mowerDropAreaLeftStart" translation="0 0.5 -0.9" nodeId="297"/>
-            <TransformGroup name="mowerDropAreaLeftWidth" translation="2.678 0.5 -1.6" nodeId="298"/>
-            <TransformGroup name="mowerDropAreaLeftHeight" translation="0 0.5 -1.2" nodeId="299"/>
-            <TransformGroup name="mowerGroundRefLeft" translation="1.25 0 -0.75" nodeId="300">
-              <Shape name="sphere" translation="0 0 0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="301" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="24"/>
+          <TransformGroup name="armLeftMulcherEffectLinkNode" translation="1.07836 -0.253182 1.08162" rotation="0 -90 0" nodeId="285"/>
+          <TransformGroup name="armSupportAttached" translation="1.51203 0.169531 1.13756" rotation="0 -90 0" clipDistance="300" nodeId="286"/>
+          <TransformGroup name="armLeftHydraulicRef" translation="0.975 0.139 1.1919" rotation="4.64594 0 0" nodeId="287"/>
+          <TransformGroup name="mm7000_decals" translation="0.536445 -0.012313 1.35267" rotation="0 -90 0" clipDistance="120" nodeId="288"/>
+          <Shape name="mm7000_decals1" translation="-0.170536 0.025203 1.17219" rotation="0 -90 0" shapeId="17" clipDistance="120" nodeId="289" castsShadows="false" receiveShadows="true" decalLayer="2" materialIds="19"/>
+          <TransformGroup name="armLeftjoint" nodeId="290"/>
+          <TransformGroup name="workAreaLeft" translation="0 -0.35 0" rotation="-0 -90 0" nodeId="291">
+            <TransformGroup name="mowerWorkAreaLeftStart" translation="0 0 1.125" nodeId="292"/>
+            <TransformGroup name="mowerWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="293"/>
+            <TransformGroup name="mowerWorkAreaLeftHeight" nodeId="294"/>
+            <TransformGroup name="mowerDropAreaLeftStart" translation="0 0.5 -0.9" nodeId="295"/>
+            <TransformGroup name="mowerDropAreaLeftWidth" translation="2.678 0.5 -1.6" nodeId="296"/>
+            <TransformGroup name="mowerDropAreaLeftHeight" translation="0 0.5 -1.2" nodeId="297"/>
+            <TransformGroup name="mowerGroundRefLeft" translation="1.25 0 -0.75" nodeId="298">
+              <Shape name="sphere" translation="0 0 0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="299" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="24"/>
             </TransformGroup>
-            <TransformGroup name="mulcherWorkAreaLeftStart" translation="0 0 1.125" nodeId="302"/>
-            <TransformGroup name="mulcherWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="303"/>
-            <TransformGroup name="mulcherWorkAreaLeftHeight" nodeId="304"/>
-            <TransformGroup name="mulcherGroundRefLeft" translation="1.25 0 -0.75" nodeId="305">
-              <Shape name="sphere" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="306" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="23"/>
+            <TransformGroup name="mulcherWorkAreaLeftStart" translation="0 0 1.125" nodeId="300"/>
+            <TransformGroup name="mulcherWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="301"/>
+            <TransformGroup name="mulcherWorkAreaLeftHeight" nodeId="302"/>
+            <TransformGroup name="mulcherGroundRefLeft" translation="1.25 0 -0.75" nodeId="303">
+              <Shape name="sphere" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="304" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="23"/>
             </TransformGroup>
-            <TransformGroup name="stumpWorkAreaLeftStart" translation="0 0 1.125" nodeId="307"/>
-            <TransformGroup name="stumpWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="308"/>
-            <TransformGroup name="stumpWorkAreaLeftHeight" nodeId="309"/>
-            <TransformGroup name="stumpGroundRefLeft" translation="1.25 0 -0.75" nodeId="310">
-              <Shape name="sphere" translation="0 0 -0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="311" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="25"/>
+            <TransformGroup name="stumpWorkAreaLeftStart" translation="0 0 1.125" nodeId="305"/>
+            <TransformGroup name="stumpWorkAreaLeftWidth" translation="2.678 0 -0.548804" nodeId="306"/>
+            <TransformGroup name="stumpWorkAreaLeftHeight" nodeId="307"/>
+            <TransformGroup name="stumpGroundRefLeft" translation="1.25 0 -0.75" nodeId="308">
+              <Shape name="sphere" translation="0 0 -0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="309" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="25"/>
             </TransformGroup>
-            <TransformGroup name="stumpCutNodeLeft" translation="-0.433082 -0.2 1.43355" rotation="-180 57 -180" nodeId="312">
-              <Shape name="cube" translation="2.1 0 -5.27361e-08" scale="4.2 0.2 0.2" shapeId="11" visibility="false" nodeId="313" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="26"/>
-            </TransformGroup>
+            <TransformGroup name="stumpCutNodeLeft" translation="-0.921689 0.2 1.72716" rotation="-126.8 -24.0374 -69.5393" nodeId="310"/>
           </TransformGroup>
-          <TransformGroup name="effects" translation="-0.0449999 -0.3266 -0.8943" rotation="-0 -90 0" nodeId="314">
-            <TransformGroup name="leftMowerEffectLinkNode" translation="1.634 -0.110245 -1.62354" rotation="0 22.4 0" scale="0.8 1 1" nodeId="315"/>
-            <Shape name="leftMowerSmokeEmitter" translation="2.111 0.333477 -1.6" rotation="-48.662 26 0" scale="0.9 1 1" shapeId="13" clipDistance="300" nodeId="316" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+          <TransformGroup name="effects" translation="-0.0449999 -0.3266 -0.8943" rotation="-0 -90 0" nodeId="312">
+            <TransformGroup name="leftMowerEffectLinkNode" translation="1.634 -0.110245 -1.62354" rotation="0 22.4 0" scale="0.8 1 1" nodeId="313"/>
+            <Shape name="leftMowerSmokeEmitter" translation="2.111 0.333477 -1.6" rotation="-48.662 26 0" scale="0.9 1 1" shapeId="12" clipDistance="300" nodeId="314" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
     </Shape>
-    <Shape name="mm700_armRight_component3" translation="-2.24014 0.224016 -0.34684" shapeId="19" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="317" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6">
-      <TransformGroup name="armRightBackArmPhysRot" translation="-0.922861 0.077484 -1.61716" nodeId="318">
-        <TransformGroup name="armRightBackArmPhys" nodeId="319">
-          <TransformGroup name="armRightBackArmWheelRotPhys" translation="0 0.0656 -0.4558" nodeId="320">
-            <TransformGroup name="armRightBackArmWheel" translation="-0.215 -1.3e-05 -2.3e-05" nodeId="321">
-              <TransformGroup name="armRightBackArmHubLeft" translation="0.425247 0 0" nodeId="322"/>
-              <TransformGroup name="armRightBackArmHubRight" translation="0.004247 0 0" nodeId="323"/>
+    <Shape name="mm700_armRight_component3" translation="-2.24014 0.224016 -0.34684" shapeId="18" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="315" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6">
+      <TransformGroup name="armRightBackArmPhysRot" translation="-0.922861 0.077484 -1.61716" nodeId="316">
+        <TransformGroup name="armRightBackArmPhys" nodeId="317">
+          <TransformGroup name="armRightBackArmWheelRotPhys" translation="0 0.0656 -0.4558" nodeId="318">
+            <TransformGroup name="armRightBackArmWheel" translation="-0.215 -1.3e-05 -2.3e-05" nodeId="319">
+              <TransformGroup name="armRightBackArmHubLeft" translation="0.425247 0 0" nodeId="320"/>
+              <TransformGroup name="armRightBackArmHubRight" translation="0.004247 0 0" nodeId="321"/>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="armRightRef" translation="-8.65366 0.102584 0.30184" rotation="0 -90 0" nodeId="324"/>
-      <TransformGroup name="armRightRefFrame" translation="1.34634 0.102584 0.30184" rotation="-45 -90 0" nodeId="325">
-        <TransformGroup name="armRight" rotation="45 -1e-06 -1e-06" clipDistance="300" nodeId="326">
-          <TransformGroup name="movingParts" rotation="0 90 0" nodeId="327">
-            <TransformGroup name="armRightBackArmRot" translation="-2.2692 -0.0251 -1.919" nodeId="328">
-              <TransformGroup name="armRightBackArm" clipDistance="300" nodeId="329">
-                <TransformGroup name="armRightBackArmHydraulicRef" translation="0 0.2555 0.0523" rotation="161.177 0 -180" nodeId="330"/>
-                <TransformGroup name="mm7000_decals" translation="-0.000344 0.212875 -0.157791" clipDistance="30" nodeId="331"/>
+      <TransformGroup name="armRightRef" translation="-8.65366 0.102584 0.30184" rotation="0 -90 0" nodeId="322"/>
+      <TransformGroup name="armRightRefFrame" translation="1.34634 0.102584 0.30184" rotation="-45 -90 0" nodeId="323">
+        <TransformGroup name="armRight" rotation="45 -1e-06 -1e-06" clipDistance="300" nodeId="324">
+          <TransformGroup name="movingParts" rotation="0 90 0" nodeId="325">
+            <TransformGroup name="armRightBackArmRot" translation="-2.2692 -0.0251 -1.919" nodeId="326">
+              <TransformGroup name="armRightBackArm" clipDistance="300" nodeId="327">
+                <TransformGroup name="armRightBackArmHydraulicRef" translation="0 0.2555 0.0523" rotation="161.177 0 -180" nodeId="328"/>
+                <TransformGroup name="mm7000_decals" translation="-0.000344 0.212875 -0.157791" clipDistance="30" nodeId="329"/>
               </TransformGroup>
             </TransformGroup>
-            <TransformGroup name="armRightBackArmHydraulic" translation="-2.2692 0.0948 -1.4689" rotation="161.177 0 -180" clipDistance="300" nodeId="332">
-              <TransformGroup name="armRightBackArmHydraulicPunch" translation="0 0 0.420276" clipDistance="300" nodeId="333"/>
-              <TransformGroup name="armRightBackArmHydraulicJoint" nodeId="334"/>
+            <TransformGroup name="armRightBackArmHydraulic" translation="-2.2692 0.0948 -1.4689" rotation="161.177 0 -180" clipDistance="300" nodeId="330">
+              <TransformGroup name="armRightBackArmHydraulicPunch" translation="0 0 0.420276" clipDistance="300" nodeId="331"/>
+              <TransformGroup name="armRightBackArmHydraulicJoint" nodeId="332"/>
             </TransformGroup>
-            <TransformGroup name="armRightCutterDrum01Rot" translation="-0.521586 -0.057247 -0.269277" nodeId="335">
-              <TransformGroup name="armRightCutterDrum01" translation="0.001634 0 0.000452" clipDistance="300" nodeId="336">
-                <TransformGroup name="armRightCutterDrum01Arm01" translation="-1e-06 -0.110822 0.187255" clipDistance="300" nodeId="337"/>
-                <TransformGroup name="armRightCutterDrum01Arm02" translation="-0.187256 -0.110822 -1e-06" clipDistance="300" nodeId="338"/>
-                <TransformGroup name="armRightCutterDrum01Arm03" translation="0 -0.110822 -0.187256" clipDistance="300" nodeId="339"/>
-                <TransformGroup name="armRightCutterDrum01Arm04" translation="0.187255 -0.110822 0" clipDistance="300" nodeId="340"/>
+            <TransformGroup name="armRightCutterDrum01Rot" translation="-0.521586 -0.057247 -0.269277" nodeId="333">
+              <TransformGroup name="armRightCutterDrum01" translation="0.001634 0 0.000452" clipDistance="300" nodeId="334">
+                <TransformGroup name="armRightCutterDrum01Arm01" translation="-1e-06 -0.110822 0.187255" clipDistance="300" nodeId="335"/>
+                <TransformGroup name="armRightCutterDrum01Arm02" translation="-0.187256 -0.110822 -1e-06" clipDistance="300" nodeId="336"/>
+                <TransformGroup name="armRightCutterDrum01Arm03" translation="0 -0.110822 -0.187256" clipDistance="300" nodeId="337"/>
+                <TransformGroup name="armRightCutterDrum01Arm04" translation="0.187255 -0.110822 0" clipDistance="300" nodeId="338"/>
               </TransformGroup>
             </TransformGroup>
-            <TransformGroup name="armRightCutterDrum02Rot" translation="-1.87268 -0.057248 -1.04891" nodeId="341">
-              <TransformGroup name="armRightCutterDrum02" translation="0.001733 0 0.000126" clipDistance="300" nodeId="342">
-                <TransformGroup name="armRightCutterDrum02Arm01" translation="-2e-06 -0.110821 0.187255" clipDistance="300" nodeId="343"/>
-                <TransformGroup name="armRightCutterDrum02Arm02" translation="-0.187257 -0.110821 -1e-06" clipDistance="300" nodeId="344"/>
-                <TransformGroup name="armRightCutterDrum02Arm03" translation="-1e-06 -0.110821 -0.187256" clipDistance="300" nodeId="345"/>
-                <TransformGroup name="armRightCutterDrum02Arm04" translation="0.187254 -0.110821 0" clipDistance="300" nodeId="346"/>
+            <TransformGroup name="armRightCutterDrum02Rot" translation="-1.87268 -0.057248 -1.04891" nodeId="339">
+              <TransformGroup name="armRightCutterDrum02" translation="0.001733 0 0.000126" clipDistance="300" nodeId="340">
+                <TransformGroup name="armRightCutterDrum02Arm01" translation="-2e-06 -0.110821 0.187255" clipDistance="300" nodeId="341"/>
+                <TransformGroup name="armRightCutterDrum02Arm02" translation="-0.187257 -0.110821 -1e-06" clipDistance="300" nodeId="342"/>
+                <TransformGroup name="armRightCutterDrum02Arm03" translation="-1e-06 -0.110821 -0.187256" clipDistance="300" nodeId="343"/>
+                <TransformGroup name="armRightCutterDrum02Arm04" translation="0.187254 -0.110821 0" clipDistance="300" nodeId="344"/>
               </TransformGroup>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="configurations" nodeId="347">
-            <TransformGroup name="trashFanFrameRight" translation="-0.433337 0.084984 0.347132" rotation="0 90 0" clipDistance="300" nodeId="348">
-              <TransformGroup name="trashFanFrameRightJoint" nodeId="349"/>
+          <TransformGroup name="configurations" nodeId="345">
+            <TransformGroup name="trashFanFrameRight" translation="-0.433337 0.084984 0.347132" rotation="0 90 0" clipDistance="300" nodeId="346">
+              <TransformGroup name="trashFanFrameRightJoint" nodeId="347"/>
             </TransformGroup>
           </TransformGroup>
-          <TransformGroup name="ptos" nodeId="350">
-            <TransformGroup name="armRightLocalPto01End" translation="0.001208 0.179985 0.251932" rotation="179.857 45.0053 179.798" nodeId="351"/>
-            <TransformGroup name="armRightLocalPto02Start" translation="-0.413406 0.179986 0.666486" rotation="179.857 45.0053 179.798" nodeId="352"/>
-            <TransformGroup name="armRightLocalPto02End" translation="-0.954641 0.179988 1.52132" rotation="0.313145 165.014 1.21571" nodeId="353"/>
+          <TransformGroup name="ptos" nodeId="348">
+            <TransformGroup name="armRightLocalPto01End" translation="0.001208 0.179985 0.251932" rotation="179.857 45.0053 179.798" nodeId="349"/>
+            <TransformGroup name="armRightLocalPto02Start" translation="-0.413406 0.179986 0.666486" rotation="179.857 45.0053 179.798" nodeId="350"/>
+            <TransformGroup name="armRightLocalPto02End" translation="-0.954641 0.179988 1.52132" rotation="0.313145 165.014 1.21571" nodeId="351"/>
           </TransformGroup>
-          <TransformGroup name="armRightMulcherEffectLinkNode" translation="-1.07851 -0.253182 1.08047" rotation="0 90 0" nodeId="354"/>
-          <TransformGroup name="armRightHydraulicRef" translation="-0.975 0.139 1.1919" rotation="4.64594 0 0" nodeId="355"/>
-          <TransformGroup name="mm7000_decals" translation="-0.536444 -0.012313 1.35219" rotation="0 90 0" clipDistance="120" nodeId="356"/>
-          <Shape name="mm7000_decals1" translation="0.17054 0.025197 1.17124" rotation="0 90 0" shapeId="20" clipDistance="120" nodeId="357" castsShadows="false" receiveShadows="true" decalLayer="2" materialIds="19"/>
-          <TransformGroup name="armRightjoint" nodeId="358"/>
-          <TransformGroup name="workAreaRight" translation="0 -0.35 0" rotation="-0 90 0" nodeId="359">
-            <TransformGroup name="mowerWorkAreaRightStart" translation="0 0 1.125" nodeId="360"/>
-            <TransformGroup name="mowerWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="361"/>
-            <TransformGroup name="mowerWorkAreaRightHeight" nodeId="362"/>
-            <TransformGroup name="mowerDropAreaRightStart" translation="0 0.5 -0.9" nodeId="363"/>
-            <TransformGroup name="mowerDropAreaRightWidth" translation="-2.678 0.5 -1.6" nodeId="364"/>
-            <TransformGroup name="mowerDropAreaRightHeight" translation="0 0.5 -1.2" nodeId="365"/>
-            <TransformGroup name="mowerGroundRefRight" translation="-1.25 0 -0.75" nodeId="366">
-              <Shape name="sphere" translation="0 0 0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="367" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="24"/>
+          <TransformGroup name="armRightMulcherEffectLinkNode" translation="-1.07851 -0.253182 1.08047" rotation="0 90 0" nodeId="352"/>
+          <TransformGroup name="armRightHydraulicRef" translation="-0.975 0.139 1.1919" rotation="4.64594 0 0" nodeId="353"/>
+          <TransformGroup name="mm7000_decals" translation="-0.536444 -0.012313 1.35219" rotation="0 90 0" clipDistance="120" nodeId="354"/>
+          <Shape name="mm7000_decals1" translation="0.17054 0.025197 1.17124" rotation="0 90 0" shapeId="19" clipDistance="120" nodeId="355" castsShadows="false" receiveShadows="true" decalLayer="2" materialIds="19"/>
+          <TransformGroup name="armRightjoint" nodeId="356"/>
+          <TransformGroup name="workAreaRight" translation="0 -0.35 0" rotation="-0 90 0" nodeId="357">
+            <TransformGroup name="mowerWorkAreaRightStart" translation="0 0 1.125" nodeId="358"/>
+            <TransformGroup name="mowerWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="359"/>
+            <TransformGroup name="mowerWorkAreaRightHeight" nodeId="360"/>
+            <TransformGroup name="mowerDropAreaRightStart" translation="0 0.5 -0.9" nodeId="361"/>
+            <TransformGroup name="mowerDropAreaRightWidth" translation="-2.678 0.5 -1.6" nodeId="362"/>
+            <TransformGroup name="mowerDropAreaRightHeight" translation="0 0.5 -1.2" nodeId="363"/>
+            <TransformGroup name="mowerGroundRefRight" translation="-1.25 0 -0.75" nodeId="364">
+              <Shape name="sphere" translation="0 0 0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="365" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="24"/>
             </TransformGroup>
-            <TransformGroup name="mulcherWorkAreaRightStart" translation="0 0 1.125" nodeId="368"/>
-            <TransformGroup name="mulcherWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="369"/>
-            <TransformGroup name="mulcherWorkAreaRightHeight" nodeId="370"/>
-            <TransformGroup name="mulcherGroundRefRight" translation="-1.25 0 -0.75" nodeId="371">
-              <Shape name="sphere" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="372" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="23"/>
+            <TransformGroup name="mulcherWorkAreaRightStart" translation="0 0 1.125" nodeId="366"/>
+            <TransformGroup name="mulcherWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="367"/>
+            <TransformGroup name="mulcherWorkAreaRightHeight" nodeId="368"/>
+            <TransformGroup name="mulcherGroundRefRight" translation="-1.25 0 -0.75" nodeId="369">
+              <Shape name="sphere" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="370" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="23"/>
             </TransformGroup>
-            <TransformGroup name="stumpWorkAreaRightStart" translation="0 0 1.125" nodeId="373"/>
-            <TransformGroup name="stumpWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="374"/>
-            <TransformGroup name="stumpWorkAreaRightHeight" nodeId="375"/>
-            <TransformGroup name="stumpGroundRefRight" translation="-1.25 0 -0.75" nodeId="376">
-              <Shape name="sphere" translation="0 0 -0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="377" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="25"/>
+            <TransformGroup name="stumpWorkAreaRightStart" translation="0 0 1.125" nodeId="371"/>
+            <TransformGroup name="stumpWorkAreaRightWidth" translation="-2.678 0 -0.548804" nodeId="372"/>
+            <TransformGroup name="stumpWorkAreaRightHeight" nodeId="373"/>
+            <TransformGroup name="stumpGroundRefRight" translation="-1.25 0 -0.75" nodeId="374">
+              <Shape name="sphere" translation="0 0 -0.2" scale="0.25 0.25 0.25" shapeId="10" visibility="false" nodeId="375" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="25"/>
             </TransformGroup>
-            <TransformGroup name="stumpCutNodeRight" translation="-2.77677 0.0234 -0.545956" rotation="0 57 0" nodeId="378">
-              <Shape name="cube" translation="2.1 0 -5.27361e-08" scale="4.2 0.2 0.2" shapeId="11" visibility="false" nodeId="379" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="26"/>
-            </TransformGroup>
+            <TransformGroup name="stumpCutNodeRight" translation="-2.75 0.2 -0.545956" rotation="-53.0728 -24.9439 -106.827" nodeId="376"/>
           </TransformGroup>
-          <TransformGroup name="effects" translation="0.0449999 -0.3266 -0.8938" rotation="-0 90 0" nodeId="380">
-            <TransformGroup name="rightMowerEffectLinkNode" translation="-1.634 -0.11 -1.62354" rotation="0 -22.4 0" scale="0.8 1 1" nodeId="381"/>
-            <Shape name="rightMowerSmokeEmitter" translation="-1.76761 0.333477 -1.6" rotation="-48.662 -26 0" scale="0.9 1 1" shapeId="13" clipDistance="300" nodeId="382" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
+          <TransformGroup name="effects" translation="0.0449999 -0.3266 -0.8938" rotation="-0 90 0" nodeId="378">
+            <TransformGroup name="rightMowerEffectLinkNode" translation="-1.634 -0.11 -1.62354" rotation="0 -22.4 0" scale="0.8 1 1" nodeId="379"/>
+            <Shape name="rightMowerSmokeEmitter" translation="-1.76761 0.333477 -1.6" rotation="-48.662 -26 0" scale="0.9 1 1" shapeId="12" clipDistance="300" nodeId="380" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5"/>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
@@ -631,25 +621,25 @@
     <UserAttribute nodeId="195">
       <Attribute name="liw" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="246">
+    <UserAttribute nodeId="244">
       <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
-    <UserAttribute nodeId="267">
+    <UserAttribute nodeId="265">
       <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
-    <UserAttribute nodeId="282">
+    <UserAttribute nodeId="280">
       <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
-    <UserAttribute nodeId="292">
+    <UserAttribute nodeId="290">
       <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
-    <UserAttribute nodeId="334">
+    <UserAttribute nodeId="332">
       <Attribute name="liw" type="boolean" value="true"/>
     </UserAttribute>
-    <UserAttribute nodeId="349">
+    <UserAttribute nodeId="347">
       <Attribute name="liw" type="boolean" value="false"/>
     </UserAttribute>
-    <UserAttribute nodeId="358">
+    <UserAttribute nodeId="356">
       <Attribute name="liw" type="boolean" value="true"/>
     </UserAttribute>
   </UserAttributes>
