@@ -237,18 +237,21 @@
             <groundReferenceNode index="1" />
             <folding minLimit="0" maxLimit="0.13"/>
             <mower dropWindrow="true" dropAreaIndex="8" />
+            <onlyActiveWhenLowered value="true"/>
         </workArea>
 		<workArea type="mower" functionName="processMowerArea" disableBackwards="false" >
             <area startNode="areaMowerLeftStart" widthNode="areaMowerLeftWidth" heightNode="areaMowerLeftHeight" />
             <groundReferenceNode index="2" />
             <folding minLimit="0" maxLimit="0.13"/>
             <mower dropWindrow="true" dropAreaIndex="9" />
+            <onlyActiveWhenLowered value="true"/>
         </workArea>
 		<workArea type="mower" functionName="processMowerArea" disableBackwards="false" >
             <area startNode="areaMowerRightStart" widthNode="areaMowerRightWidth" heightNode="areaMowerRightHeight" />
             <groundReferenceNode index="3" />
             <folding minLimit="0" maxLimit="0.13"/>
             <mower dropWindrow="true" dropAreaIndex="10" />
+            <onlyActiveWhenLowered value="true"/>
         </workArea>
 
         <workArea type="mulcher" functionName="processMulcherArea">
