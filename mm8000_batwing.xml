@@ -608,7 +608,7 @@
         </movingTools>
 
         <movingParts>
-            <movingPart node="drawbar" referencePoint="drawbarRef" referenceFrame="drawbarPhysRot" limitedAxis="1" maxUpdateDistance="300">
+            <movingPart node="drawbar" referencePoint="drawbarRef" referenceFrame="drawbarPhysRot" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
                 <dependentPart node="drawbarAlignRod" maxUpdateDistance="50"/>
             </movingPart>
             <movingPart node="drawbarAlignRod" referencePoint="drawbarAlignRodRef" referenceFrame="drawbarAlignRodRef" limitedAxis="1" scaleZ="true"/>
@@ -616,7 +616,7 @@
                 <translatingPart node="armMiddleBackArmHydraulicPunch" />
             </movingPart>
 
-            <movingPart node="armLeft" referencePoint="armLeftRef" referenceFrame="armLeftRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="300">
+            <movingPart node="armLeft" referencePoint="armLeftRef" referenceFrame="armLeftRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
                 <dependentPart node="armLeftHydraulic" />
                 <powerTakeOffs localIndices="1" />
             </movingPart>
@@ -627,7 +627,7 @@
                 <translatingPart node="armLeftBackArmHydraulicPunch" />
             </movingPart>
 
-            <movingPart node="armRight" referencePoint="armRightRef" referenceFrame="armRightRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="300">
+            <movingPart node="armRight" referencePoint="armRightRef" referenceFrame="armRightRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
                 <dependentPart node="armRightHydraulic" />
                 <powerTakeOffs localIndices="3" />
             </movingPart>

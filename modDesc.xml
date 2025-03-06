@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<modDesc descVersion="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+<modDesc descVersion="95" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
     <author>GMNGjoy</author>
-    <version>1.0.0.3</version>
+    <version>1.0.0.0</version>
     <title>
         <en>Bednar BatWing</en>
         <de>Bednar Fledermausflügel</de>
@@ -24,9 +24,6 @@ Price: $40,000
 Required power: 125 hp
 Working width: 7.0m
 Working speed: 25 kph
-
-For license & feedback, please visit
-GitHub link: https://github.com/GMNGjoy/FS25_BednarBatwing
 ]]></en>
         <de><![CDATA[
 Wenn Bruce Wayne ein Schweizer Taschenmesser Alleskönner-Mähwerk entwerfen würde, würde es so aussehen. Mit durchwechselnden Arbeitsmodi kann dieses Gerät mähen, schwaden, mulchen, fräsen... so gut wie alles.
@@ -45,9 +42,6 @@ Preis: 40.000 €
 Benötigte Leistung: 125 PS
 Arbeitsbreite: 7,0m
 Arbeitsgeschwindigkeit: 25 km/h
-
-Besucht für Lizenz & Feedback bitte
-GitHub link: https://github.com/GMNGjoy/FS25_BednarBatwing
 ]]></de>
     </description>
     <iconFilename>icon_mm8000_batwing.dds</iconFilename>
