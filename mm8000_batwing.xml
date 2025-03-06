@@ -618,6 +618,7 @@
 
             <movingPart node="armLeft" referencePoint="armLeftRef" referenceFrame="armLeftRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
                 <dependentPart node="armLeftHydraulic" />
+                <dependentPart node="workAreaLeft" maxUpdateDistance="30" />
                 <powerTakeOffs localIndices="1" />
             </movingPart>
             <movingPart node="armLeftHydraulic" referencePoint="armLeftHydraulicRef" referenceFrame="armLeftHydraulicRef">
@@ -629,6 +630,7 @@
 
             <movingPart node="armRight" referencePoint="armRightRef" referenceFrame="armRightRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
                 <dependentPart node="armRightHydraulic" />
+                <dependentPart node="workAreaRight" maxUpdateDistance="30" />
                 <powerTakeOffs localIndices="3" />
             </movingPart>
             <movingPart node="armRightHydraulic" referencePoint="armRightHydraulicRef" referenceFrame="armRightHydraulicRef">
@@ -892,6 +894,7 @@
         <i3dMapping id="armLeftMowerEffectLinkNode" node="1>2|0|10|0" />
         <i3dMapping id="leftMowerSmokeEmitter" node="1>2|0|10|1" />
         
+        <i3dMapping id="workAreaLeft" node="1>2|0|9" />
         <i3dMapping id="areaMowerLeftStart" node="1>2|0|9|0" />
 		<i3dMapping id="areaMowerLeftWidth" node="1>2|0|9|1" />
 		<i3dMapping id="areaMowerLeftHeight" node="1>2|0|9|2" />
@@ -939,6 +942,7 @@
         <i3dMapping id="armRightMulcherEffectLinkNode" node="2>2|0|3" />
         <i3dMapping id="armRightHydraulicRef" node="2>2|0|4" />
         
+        <i3dMapping id="workAreaRight" node="2>2|0|8" />
         <i3dMapping id="areaMowerRightStart" node="2>2|0|8|0" />
 		<i3dMapping id="areaMowerRightWidth" node="2>2|0|8|1" />
 		<i3dMapping id="areaMowerRightHeight" node="2>2|0|8|2" />
