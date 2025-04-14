@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>Shi974</translationContributors>
+    <texts>
+        <text name="storeItem_batwing" text="BatWing MM8000" />
+
+        <text name="workMode_Mower" text="Faucheuse" />
+        <text name="workMode_Swather" text="Andaineur" />
+        <text name="workMode_BrushHog" text="Broyeur de broussailles" />
+        <text name="workMode_Mulcher" text="Broyeur" />
+        <text name="workMode_StumpGrinder" text="Rogneuse de souche" />
+        <text name="workMode_Destroyer" text="Destructeur" />
+
+        <text name="color_hellaBlack" text="Noir intense, mec !" />
+        <text name="color_hellaBlack_old" text="Noir intense &amp; Ancien" />
+        <text name="color_hellaBlack_matte" text="Noir intense &amp; Mat" />
+        <text name="color_hellaBlack_metallic" text="Noir intense &amp; Métallisé" />
+        <text name="color_hellaBlack_rough" text="Noir intense &amp; Rugueux" />
+        <text name="color_hellaBlack_scratched" text="Noir intense &amp; Rayé" />
+        <text name="color_hellaBlack_galvanized" text="Noir intense &amp; Galvanisé" />
+        <text name="color_hellaBlack_plastic" text="Noir intense &amp; Plastique" />
+    </texts>
+</l10n>
