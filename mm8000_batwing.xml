@@ -616,7 +616,7 @@
                 <translatingPart node="armMiddleBackArmHydraulicPunch" />
             </movingPart>
 
-            <movingPart node="armLeft" referencePoint="armLeftRef" referenceFrame="armLeftRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
+            <movingPart node="armLeft" referencePoint="armLeftRef" referenceFrame="armLeftRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="-">
                 <dependentPart node="armLeftHydraulic" />
                 <dependentPart node="workAreaLeft" maxUpdateDistance="30" />
                 <powerTakeOffs localIndices="1" />
@@ -628,7 +628,7 @@
                 <translatingPart node="armLeftBackArmHydraulicPunch" />
             </movingPart>
 
-            <movingPart node="armRight" referencePoint="armRightRef" referenceFrame="armRightRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="30">
+            <movingPart node="armRight" referencePoint="armRightRef" referenceFrame="armRightRefFrame" limitedAxis="1" isActiveDirty="true" maxUpdateDistance="-">
                 <dependentPart node="armRightHydraulic" />
                 <dependentPart node="workAreaRight" maxUpdateDistance="30" />
                 <powerTakeOffs localIndices="3" />
