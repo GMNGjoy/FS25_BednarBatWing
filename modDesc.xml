@@ -5,6 +5,7 @@
     <title>
         <en>Bednar BatWing</en>
         <de>Bednar Fledermausflügel</de>
+        <fr>Bednar BatWing</fr>
     </title>
     <description>
         <en><![CDATA[
@@ -43,6 +44,24 @@ Benötigte Leistung: 125 PS
 Arbeitsbreite: 7,0m
 Arbeitsgeschwindigkeit: 25 km/h
 ]]></de>
+        <fr><![CDATA[
+Si Bruce Wayne devait concevoir une faucheuse multifonction façon "couteau suisse", ce serait celle-ci. Avec ses multiples modes de travail interchangeables à la volée, cet outil peut faucher, broyer, broyer les souches ... pratiquement tout faire.
+
+Modes de travail :
+- Faucheuse (avec éjection large)
+- Broyeur de broussailles (faucheuse + broyeur de souches)
+- Andaineur (faucheuse avec andainage)
+- Broyeur (broyeur standard)
+- Rogneuse de souche (broyeur de souches uniquement)
+- Destructeur (broyeur + dessoucheuse)
+
+BEDNAR BATWING MM8000  
+Catégorie : Faucheuses  
+Prix : 40 000 €  
+Puissance requise : 125 ch  
+Largeur de travail : 7 m  
+Vitesse de travail : 25 km/h
+]]></fr>
     </description>
     <iconFilename>icon_mm8000_batwing.dds</iconFilename>
     <multiplayer supported="true"/>
