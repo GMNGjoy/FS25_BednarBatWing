@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>
+        <translationContributor>Lisek</translationContributor>
+    </translationContributors>   
+    <texts>
+        <text name="storeItem_batwing" text="BatWing MM8000"/>
+
+        <text name="workMode_Mower" text="Kosiarka"/>
+        <text name="workMode_Swather" text="Pokosówka"/>
+        <text name="workMode_BrushHog" text="Rozdrabniacz do krzewów"/>
+        <text name="workMode_Mulcher" text="Mulczer"/>
+        <text name="workMode_StumpGrinder" text="Frezarka do pni"/>
+        <text name="workMode_Destroyer" text="Rozdrabniacz do pni i krzewów"/>
+
+        <text name="color_hellaBlack" text="Głęboka czerń, ziomek!"/>
+        <text name="color_hellaBlack_old" text="Głęboka stara czerń"/>
+        <text name="color_hellaBlack_matte" text="Głęboka matowa czerń"/>
+        <text name="color_hellaBlack_metallic" text="Głęboka metaliczna czerń"/>
+        <text name="color_hellaBlack_rough" text="Głęboka surowa czerń "/>
+        <text name="color_hellaBlack_scratched" text="Głęboka porysowana czerń"/>
+        <text name="color_hellaBlack_galvanized" text="Głęboka galwanizowana czerń"/>
+        <text name="color_hellaBlack_plastic" text="Głęboka plastikowa czerń"/>
+    </texts>
+</l10n>
