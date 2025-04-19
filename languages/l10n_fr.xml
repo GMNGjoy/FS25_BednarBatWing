@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
-    <translationContributors>Shi974</translationContributors>
+    <translationContributors>
+        <translationContributor>Shi974</translationContributor>
+    </translationContributors>
     <texts>
         <text name="storeItem_batwing" text="BatWing MM8000" />
 
